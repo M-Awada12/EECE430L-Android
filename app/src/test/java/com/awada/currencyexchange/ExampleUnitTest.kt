@@ -1,4 +1,4 @@
-package com.MohammadAwada.currencyexchange
+package com.awada.currencyexchange
 
 import org.junit.Test
 
