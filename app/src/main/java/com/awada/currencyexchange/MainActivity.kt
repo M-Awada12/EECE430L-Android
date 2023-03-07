@@ -109,6 +109,7 @@ class MainActivity : AppCompatActivity() {
                 Snackbar.make(fab as View, "Transaction added!",
                     Snackbar.LENGTH_LONG)
                     .show()
+                    fetchRates()
             }
             override fun onFailure(call: Call<Any>, t: Throwable) {
                 Snackbar.make(fab as View, "Could not add transaction.",
