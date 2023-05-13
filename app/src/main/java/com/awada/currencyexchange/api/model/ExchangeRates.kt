@@ -1,3 +1,5 @@
+package com.awada.currencyexchange.api.model
+
 import com.google.gson.annotations.SerializedName
 class ExchangeRates {
     @SerializedName("usd_to_lbp")

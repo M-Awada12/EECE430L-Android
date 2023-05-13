@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">Currency Exchange</string>
-    <string name="usd_buy_rate">Buy USD: %1$.2f LBP</string>
-    <string name="usd_sell_rate">Sell USD: %1$.2f LBP</string>
+    <string-array name="options">
+        <item>USD to LBP</item>
+        <item>LBP to USD</item>
+    </string-array>
 </resources>
